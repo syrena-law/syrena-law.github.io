@@ -212,20 +212,6 @@ header {
   background-size: contain;
 }
 
-@media (min-width: $DESKTOP_WITH) {
-  .header-logo-container {
-    width: 50%;
-    margin-left: 15px;
-    background-position: left center;
-  }
-  .syrena-header {
-    flex-direction: row;
-  }
-  .syrena-navbar {
-    padding-right: 15px;
-  }
-}
-
 .syrena-navbar {
   display: flex;
   flex-direction: row;
@@ -238,7 +224,26 @@ header {
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
+  height: 250px;
 }
+
+@media (min-width: $DESKTOP_WITH) {
+  .header-logo-container {
+    width: 50%;
+    margin-left: 15px;
+    background-position: left center;
+  }
+  .syrena-header {
+    flex-direction: row;
+  }
+  .syrena-navbar {
+    padding-right: 15px;
+  }
+  .syrena-header-image {
+    height: 450px;
+  }
+}
+
 
 .syrena-footer-container {
   width: 100%;
