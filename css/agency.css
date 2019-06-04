@@ -10,7 +10,7 @@
 body {
     overflow-x: hidden;
     font-family: {{ site.data.setup.font.primary }};
-    color: #{{ site.data.setup.color.secondary-dark }};
+    color: #{{ site.data.setup.color.secondary }};
 }
 
 .text-muted {

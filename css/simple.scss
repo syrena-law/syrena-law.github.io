@@ -31,16 +31,12 @@ $DESKTOP_WITH: 720px;
   text-align: left;
 }
 
-.syrena-red {
+.syrena-primary {
   color: #{{ site.data.setup.color.primary }};
 }
 
 .syrena-white {
   color: #fff;
-}
-
-.syrena-blue {
-  color: #{{ site.data.setup.color.azul }};
 }
 
 .navbar-default {
@@ -70,69 +66,6 @@ header {
   color: #{{ site.data.setup.color.azul }};
 }
 
-.syrena-que-somos {
-  padding: 48px 0;
-}
-
-.syrena-que-somos-row {
-  font-family: {{ site.data.setup.font.tertiary }};
-  text-transform: uppercase;
-  padding: 16px 4px;
-  margin-top: 48px;
-}
-
-.syrena-acoes-text {
-  padding: 48px;
-}
-
-.syrena-acoes-text svg {
-  margin-bottom: 48px;
-}
-
-.syrena-acoes-text .syrena-balloon {
-  max-width: 30px;
-  width: 50%;
-  fill: #{{ site.data.setup.color.azul }};
-}
-
-.syrena-acoes-text .syrena-lemon {
-  max-width: 52px;
-  width: 40%;
-  fill: #{{ site.data.setup.color.primary }};
-}
-
-.syrena-subtitle {
-  position: absolute;
-  bottom: 0;
-  padding: 0 32px;
-  text-align: right;
-}
-
-.syrena-white-on-black {
-  background-color: #000;
-  color: #fff;  
-}
-
-.syrena-rotina {
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-.syrena-rotina p {
-  font-family: {{ site.data.setup.font.primary }};
-  margin: 0 48px 25px;
-  font-weight: 300;
-  text-transform: none;
-}
-
-#syrena-rotina-title {
-  text-transform: uppercase;
-  font-size: 45px;
-  letter-spacing: 1px;
-  line-height: 1.1;
-  font-weight: 900;
-}
-
 .syrena-about-row {
   font-family: {{ site.data.setup.font.tertiary }};
   text-transform: uppercase;
@@ -153,18 +86,6 @@ header {
 .syrena-section {
   padding-top: 48px;
   padding-bottom: 48px;
-}
-
-.syrena-contact svg {
-  width: 20vw;
-  fill: #{{ site.data.setup.color.primary }};
-  margin-bottom: 5px;
-}
-
-@media (min-width: $DESKTOP_WITH) {
-  .syrena-contact svg {
-    width: 12vw;
-  }
 }
 
 .syrena-contact-footer {
@@ -228,7 +149,6 @@ header {
   }
 }
 
-
 .syrena-footer-container {
   width: 100%;
   padding: 0;
@@ -249,29 +169,6 @@ header {
   width: 100%;
   overflow: hidden;
   max-height: 289px;
-}
-
-@media (min-width: $DESKTOP_WITH) {
-  .img-thumbnail-container {
-    max-height: 261px;
-  }
-}
-
-@media (min-width: 992px) {
-  .img-thumbnail-container {
-    max-height: 222px;
-  }
-}
-
-@media (min-width: 1210px) {
-  .img-thumbnail-container {
-    max-height: 261px;
-  }
-}
-
-.img-thumbnail {
-  width: 100%;
-  max-width: 400px;
 }
 
 .video-wrapper-16x9 {
