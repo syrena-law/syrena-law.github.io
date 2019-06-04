@@ -30,21 +30,20 @@ prose:
     - _plugins
     - css
     - js
-    - mail
     - CNAME
     - index.html
-    - style.css
-    - feed.xml
     - img/favicons
     - img/swipebox
-    - img/clients
-    - img/people
   metadata:
     _posts:
       - name: "layout"
         field:
           element: "hidden"
           value: "default"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
       - name: "title"
         field:
           element: "text"
@@ -53,22 +52,8 @@ prose:
         field:
           element: "text"
           label: "subtitulo do projeto"
-      - name: "video"
-        field:
-          element: "text"
-          label: "código de embed de algum vídeo no youtube ou vimeo."
-          placeholder: "//player.vimeo.com/video/165527282?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0179"
       - name: "img"
         field:
           element: "text"
           label: "imagem de capa para o projeto"
           placeholder: "roundicons.png"
-      - name: "swipebox"
-        field:
-          element: "text"
-          label: "prefixo dos arquivos de imagem para serem incluidos na galeria"
-          placeholder: "tartarugas_"
-      - name: "published"
-        field:
-          element: "hidden"
-          value: "true"

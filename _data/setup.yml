@@ -14,6 +14,7 @@ color:
 font:
   primary: 'Montserrat, "Helvetica Neue", Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  tertiary: 'Lulo-Clean, "Helvetica Neue", Helvetica,Arial,sans-serif'
 
 email: email@email.com
 

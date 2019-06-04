@@ -7,22 +7,6 @@
     src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/80de9d5d-ab5f-40ce-911b-104e51e93d7c.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/1b46b05b-cfdd-4d82-8c2f-5c6cfba1fe60.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/be340f0b-a2d4-41df-acb1-4dc124330a88.svg#be340f0b-a2d4-41df-acb1-4dc124330a88") format("svg");
 }
 
-@font-face{
-    font-family:"Trend-Sans";
-    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/392aa98f-a1bf-4dc4-9def-a5d27c73a0de.eot?#iefix");
-    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/392aa98f-a1bf-4dc4-9def-a5d27c73a0de.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/29c66f1e-5243-4f34-8a19-47405f72954c.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/c81cca03-5f1a-4252-9950-096e60e2bde9.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/569b48ce-f71b-4e2d-a80a-1920efbd7187.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/f284409f-3669-43df-bfe1-f9f9ee1bbc07.svg#f284409f-3669-43df-bfe1-f9f9ee1bbc07") format("svg");
-}
-
-@font-face {
-    font-family: "Primus";
-    src: url("{{ site.baseurl }}/css/primus/Primus-webfont.eot");
-    src: url("{{ site.baseurl }}/css/primus/Primus-webfont.woff2") format("woff2"),
-         url("{{ site.baseurl }}/css/primus/Primus-webfont.woff") format("woff"),
-         url("{{ site.baseurl }}/css/primus/Primus-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 $DESKTOP_WITH: 720px;
 
 .syrena-32 {
@@ -81,7 +65,7 @@ header {
 }
 
 #syrena-home-header-title {
-  font-family: "Primus";
+  font-family: {{ site.data.setup.font.tertiary }};
   letter-spacing: 9px;
   color: #{{ site.data.setup.color.azul }};
 }
@@ -91,7 +75,7 @@ header {
 }
 
 .syrena-que-somos-row {
-  font-family: "Lulo-Clean";
+  font-family: {{ site.data.setup.font.tertiary }};
   text-transform: uppercase;
   padding: 16px 4px;
   margin-top: 48px;
@@ -150,7 +134,7 @@ header {
 }
 
 .syrena-about-row {
-  font-family: "Lulo-Clean";
+  font-family: {{ site.data.setup.font.tertiary }};
   text-transform: uppercase;
 }
 
@@ -167,6 +151,7 @@ header {
 }
 
 .syrena-section {
+  height: 2222px;
   padding-top: 48px;
   padding-bottom: 48px;
 }
