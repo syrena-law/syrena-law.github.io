@@ -15,11 +15,13 @@ font:
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
   tertiary: 'Lulo-Clean, "Helvetica Neue", Helvetica,Arial,sans-serif'
 
-email: email@email.com
+email: karen@syrenalaw.com
 
 # Social networks usernames
 social:
-  - title: facebook
-    url: https://www.facebook.com/SyrenaLaw/
+  - title: twitter
+    url: https://twitter.com/karhoff
+  - title: linkedin-in
+    url: https://www.linkedin.com/in/karhoff/
   - title: envelope
     url: "mailto:"
