@@ -136,7 +136,8 @@ header {
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  height: 50%;
+  /* height: 50%; */
+  height: 0px;
 }
 
 @media (min-width: $DESKTOP_WITH) {
@@ -152,7 +153,8 @@ header {
     padding-right: 15px;
   }
   .syrena-header-image {
-    height: 450px;
+    /* height: 450px; */
+    height: 0px;
   }
 }
 
