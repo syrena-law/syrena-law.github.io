@@ -17,7 +17,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "default"
+      layout: "post"
 
 # prose.io
 prose:
@@ -39,7 +39,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "default"
+          value: "post"
       - name: "published"
         field:
           element: "hidden"
@@ -47,13 +47,9 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "nome do projeto"
-      - name: "subtitle"
+          label: "post title"
+      - name: "cover"
         field:
           element: "text"
-          label: "subtitulo do projeto"
-      - name: "img"
-        field:
-          element: "text"
-          label: "imagem de capa para o projeto"
-          placeholder: "roundicons.png"
+          label: "cover image for post"
+          placeholder: "img/posts/photo00.jpg"

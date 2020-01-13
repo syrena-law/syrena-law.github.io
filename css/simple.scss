@@ -7,7 +7,8 @@
     src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/80de9d5d-ab5f-40ce-911b-104e51e93d7c.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/1b46b05b-cfdd-4d82-8c2f-5c6cfba1fe60.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/be340f0b-a2d4-41df-acb1-4dc124330a88.svg#be340f0b-a2d4-41df-acb1-4dc124330a88") format("svg");
 }
 
-$DESKTOP_WITH: 720px;
+$TABLET_WIDTH: 768px;
+$DESKTOP_WIDTH: 992px;
 
 .syrena-32 {
   font-size: 32px;
@@ -44,7 +45,7 @@ $DESKTOP_WITH: 720px;
   padding: 5px 0;
 }
 
-@media (min-width: $DESKTOP_WITH) {
+@media (min-width: $TABLET_WIDTH) {
   .navbar-default {
     padding: 10px 0;
   }
@@ -54,7 +55,7 @@ header {
   margin-top: 130px;
 }
 
-@media (min-width: $DESKTOP_WITH) {
+@media (min-width: $TABLET_WIDTH) {
   header {
     margin-top: 60px;
   }
@@ -66,14 +67,14 @@ header {
   color: #{{ site.data.setup.color.azul }};
 }
 
-.syrena-about-row {
+.syrena-about-row, .syrena-news-row {
   font-family: {{ site.data.setup.font.tertiary }};
   text-transform: uppercase;
 }
 
 .syrena-about-text p {
   font-family: {{ site.data.setup.font.primary }};
-  margin: 0 48px;
+  margin: 0;
   font-weight: 300;
   text-align: left;
   text-transform: none;
@@ -82,6 +83,34 @@ header {
 
 .syrena-about-text p+p {
   margin-top: 25px;
+}
+
+.syrena-news-row {
+  .syrena-news-list {
+    .post-container {
+      display: block;
+      width: 98%;
+
+      @media (min-width: $DESKTOP_WIDTH) {
+        width: 48%;
+      }
+
+      .post-title {
+        text-align: left;
+      }
+
+      .post-preview {
+        font-family: {{ site.data.setup.font.primary }};
+        margin: 0;
+        font-weight: 300;
+        text-align: left;
+        text-transform: none;
+        color: #222;
+      }
+
+      .post-cover {}
+    }
+  }
 }
 
 .syrena-section {
@@ -141,7 +170,8 @@ header {
   height: 0px;
 }
 
-@media (min-width: $DESKTOP_WITH) {
+
+@media (min-width: $TABLET_WIDTH) {
   .header-logo-container {
     width: 50%;
     margin-left: 15px;
