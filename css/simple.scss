@@ -116,7 +116,13 @@ header {
         color: #222;
       }
 
-      .post-cover {}
+      .post-cover {
+        width: 100%;
+        padding-bottom: 50%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
     }
   }
 }

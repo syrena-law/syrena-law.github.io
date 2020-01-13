@@ -7,10 +7,10 @@
               <p class="syrena-32 syrena-primary syrena-left">News</p>
             </div>
             <div class="col-md-9 text-center syrena-news-list">
-              {% for post in site.posts %}
+              {% for post in site.posts limit:4 %}
                 <a class="post-container" href="{{ post.url }}">
                   <div class="post-title">{{ post.title }}</div>
-                  <div class="post-cover"></div>
+                  <div class="post-cover" style="background-image: url({{ site.baseurl }}/{{ post.cover }});"></div>
                   <div class="post-preview">{{ post.excerpt | truncate: 140 }}</div>
                 </a>
               {% endfor %}
