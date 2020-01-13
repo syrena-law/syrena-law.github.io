@@ -4,6 +4,9 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.setup.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.data.setup.description }}">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; media-src 'self'; frame-src player.vimeo.com www.youtube.com www.youtube-nocookie.com; frame-ancestors 'self'; script-src code.jquery.com 'self' ajax.googleapis.com; font-src static.parastorage.com fonts.gstatic.com 'self' data: maxcdn.bootstrapcdn.com; style-src fonts.googleapis.com 'self' 'unsafe-inline' maxcdn.bootstrapcdn.com; base-uri 'self'; form-action 'self';">
+
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicons/favicon.ico">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 

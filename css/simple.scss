@@ -87,12 +87,20 @@ header {
 
 .syrena-news-row {
   .syrena-news-list {
+    display: block;
+
+    @media (min-width: $DESKTOP_WIDTH) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
     .post-container {
       display: block;
       width: 98%;
 
       @media (min-width: $DESKTOP_WIDTH) {
-        width: 48%;
+        width: 47%;
       }
 
       .post-title {
