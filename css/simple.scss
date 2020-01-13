@@ -89,7 +89,7 @@ header {
   .syrena-news-list {
     display: block;
 
-    @media (min-width: $DESKTOP_WIDTH) {
+    @media (min-width: $TABLET_WIDTH) {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -99,7 +99,7 @@ header {
       display: block;
       width: 98%;
 
-      @media (min-width: $DESKTOP_WIDTH) {
+      @media (min-width: $TABLET_WIDTH) {
         width: 47%;
       }
 
