@@ -40,7 +40,7 @@ prose:
     - img/syrena-footer_b.png
     - img/syrena-header.png
     - img/syrena-header_w.png
-    - img/.gitkeep
+    - img/posts/.gitkeep
     - _posts/.gitkeep
   metadata:
     _posts:
@@ -55,7 +55,8 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "post title"
+          label: "Post Title"
+          placeholder: "My post title"
       - name: "cover"
         field:
           element: "text"
