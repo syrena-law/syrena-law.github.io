@@ -92,6 +92,7 @@ header {
     @media (min-width: $DESKTOP_WIDTH) {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: space-between;
     }
 
