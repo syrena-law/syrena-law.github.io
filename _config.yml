@@ -34,6 +34,11 @@ prose:
     - index.html
     - img/favicons
     - img/swipebox
+    - img/header-bg.jpg
+    - img/map-image.png
+    - img/syrena-footer.png
+    - img/syrena-footer_b.png
+    - img/syrena-header.png
   metadata:
     _posts:
       - name: "layout"
