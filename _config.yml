@@ -21,7 +21,7 @@ defaults:
 
 # prose.io
 prose:
-  media: 'img/portfolio'
+  media: 'img/posts'
   ignore:
     - .gitignore
     - _config.yml
@@ -39,6 +39,9 @@ prose:
     - img/syrena-footer.png
     - img/syrena-footer_b.png
     - img/syrena-header.png
+    - img/syrena-header_w.png
+    - img/.gitkeep
+    - _posts/.gitkeep
   metadata:
     _posts:
       - name: "layout"
