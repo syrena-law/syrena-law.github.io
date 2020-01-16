@@ -2,7 +2,6 @@ title: Syrena Law
 
 url: https://syrena-law.github.io
 baseurl: ''
-include: ['_pages']
 
 port: 8666
 permalink: /:title/
