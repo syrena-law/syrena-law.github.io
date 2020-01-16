@@ -23,7 +23,7 @@ defaults:
 
 # prose.io
 prose:
-  media: 'img/posts'
+  media: "img/posts"
   ignore:
     - .gitignore
     - _config.yml
