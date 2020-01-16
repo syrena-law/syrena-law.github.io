@@ -58,7 +58,6 @@ prose:
         field:
           element: "text"
           label: "Post Title"
-          placeholder: "My post title"
       - name: "cover"
         field:
           element: "text"
