@@ -28,11 +28,12 @@ prose:
     - _config.yml
     - _layouts
     - _includes
+    - _pages/404.html
+    - _pages/news.html
     - _plugins
     - css
     - js
     - CNAME
-    - index.html
     - img/favicons
     - img/swipebox
     - img/header-bg.jpg

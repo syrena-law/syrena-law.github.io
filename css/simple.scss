@@ -79,6 +79,7 @@ header {
   text-align: left;
   text-transform: none;
   color: #222;
+  font-size: 17px;
 }
 
 .syrena-about-text p+p {
@@ -171,6 +172,10 @@ header {
 .syrena-section {
   padding-top: 48px;
   padding-bottom: 48px;
+}
+
+.syrena-section + .syrena-section {
+  padding-top: 0;
 }
 
 .syrena-contact-footer {
