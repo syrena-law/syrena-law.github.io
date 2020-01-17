@@ -28,8 +28,8 @@ prose:
     - _config.yml
     - _layouts
     - _includes
-    - _pages/404.html
-    - _pages/news.html
+    - _pages/404.md
+    - _pages/news.md
     - _plugins
     - css
     - js
